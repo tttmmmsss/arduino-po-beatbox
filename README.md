@@ -2,40 +2,19 @@
 # Arduino PO Beatbox
 
 <!DOCTYPE html>
-<html>
-  <head>
-    <style>
-      /* Apply CSS styles to the table */
-      table {
-        width: 100%; /* Ensure the table spans the full width of the content */
-      }
-      table td {
-        width: 33.33%; /* Each cell takes up one-third of the width */
-        text-align: center; /* Center align the images */
-      }
-      img {
-        max-height: 300px; /* Set a maximum height for all images */
-        width: auto; /* Maintain the original aspect ratio */
-        display: block; /* Remove any extra space below the images */
-        margin: 0 auto; /* Center the images within the table cells */
-      }
-    </style>
-  </head>
-  <body>
-    <table>
-      <tr>
-        <td>
-          <img src="box-complete.png" alt="Image 1" />
-        </td>
-        <td>
-          <img src="gear-complete.png" alt="Image 2" />
-        </td>
-        <td>
-          <img src="state-machine.png" alt="Image 3" />
-        </td>
-      </tr>
-    </table>
-  </body>
+  <table>
+    <tr>
+      <td>
+        <img src="box-complete.jpg" alt="Beatbox with Oscilloscope" />
+      </td>
+      <td>
+        <img src="gear-complete.jpg" alt="Full Kit" />
+      </td>
+      <td>
+        <img src="state-machine.jpg" alt="State Machine diagram" />
+      </td>
+    </tr>
+  </table>
 </html>
 
 
