@@ -1,5 +1,6 @@
 
 # Arduino PO Beatbox
+by Tim Schmidt
 
 <!DOCTYPE html>
   <table>
@@ -23,7 +24,7 @@ This project aims to address the challenge of daisy-chaining multiple Teenage En
 One significant contribution made during this project was the development of a chip driver for the ICM7218C LED Driver, which did not exist in the Arduino module library previously. The ICM7218C LED Driver is crucial for the functioning of this project, enabling synchronized visual feedback for the Pocket Operators.
 
 ## ICM7218C LED Driver Library
-You can find the ICM7218C LED Driver library here: [ICM7218C LED Driver Library](https://github.com/tttmmmsss/ICM7218C)
+You can find the ICM7218C LED Driver library I produced here: [ICM7218C LED Driver Library](https://github.com/tttmmmsss/ICM7218C)
 
 ## Project Images
 - ICM7218C Specification ![ICM7218C spec](ICM7218C%20spec.png)
