@@ -19,9 +19,9 @@ by Tim Schmidt
 </html>
 
 
-This project aims to address the challenge of daisy-chaining multiple Teenage Engineering Pocket Operators, which often results in dependent volume and signal levels from one unit to the next. To tackle this issue, the Arduino PO Beatbox offers a solution: it can send a synchronization pulse in parallel to all units and then mix them together, providing individual control over the signal output to the amplifier.
+This project aims to address the challenge of daisy-chaining multiple Teenage Engineering Pocket Operators, which often results in dependent volume and signal levels from one unit to the next. To tackle this issue, the Arduino PO Beatbox offers a solution: it can send a synchronization pulse in parallel to all units and then mix them together at the output with a dedicated mixer, providing individual control over the signal output to the amplifier.
 
-One significant contribution made during this project was the development of a chip driver for the ICM7218C LED Driver, which did not exist in the Arduino module library previously. The ICM7218C LED Driver is crucial for the functioning of this project, enabling synchronized visual feedback for the Pocket Operators.
+One significant contribution made during this project was the development of a chip driver for the ICM7218C LED Driver, which did not exist in the Arduino module library previously. The ICM7218C LED Driver is crucial for navigating the function of the device, enabling visual feedback to specify the signal sent to the Pocket Operators.
 
 ## ICM7218C LED Driver Library
 You can find the ICM7218C LED Driver library I produced here: [ICM7218C LED Driver Library](https://github.com/tttmmmsss/ICM7218C)
